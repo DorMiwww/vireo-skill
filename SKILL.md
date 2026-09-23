@@ -1,15 +1,44 @@
 ---
 name: vireo
-description: 'Professional authoring, design architecture, and validation for Vireo .dac (Design as a Code) files. Dynamically fetches the latest live documentation from https://dormiwww.github.io/Vireo/ to retrieve current syntax, component models, properties, layout constraints, and compiler workflows without hardcoded assumptions.'
+description: |
+  Specialized skill for Graphic & Visual Design as Code (DaaC) using Vireo (.dac files).
+  Activate whenever working with .dac files, Vireo compiler, visual UI design, screen mockups, component design systems, tokens, Auto Layout, canvas styling, or code-driven Figma/HTML visual assets.
+  Strictly for GRAPHIC and VISUAL design as code (UI layouts, cards, buttons, forms, typography, colors, responsive containers) — NOT for software backend system architecture or database design.
+  Dynamically fetches current syntax, component models, and CLI properties from https://dormiwww.github.io/Vireo/ with zero hardcoding.
 metadata:
   author: Vireo
-  version: '2.0.0'
+  version: '2.1.0'
   docs_url: 'https://dormiwww.github.io/Vireo/'
+  keywords:
+    - dac
+    - vireo
+    - design-as-code
+    - daac
+    - visual-design
+    - graphic-design
+    - ui-design
+    - design-system
+    - figma-code
 ---
 
 # Vireo Design as a Code (`.dac`) Skill
 
 This skill equips AI agents (Claude, Antigravity, Gemini) to author, refactor, and architect professional `.dac` (Design as a Code) files using **live, dynamically fetched documentation**.
+
+---
+
+## 🎯 When to Activate This Skill
+
+Activate this skill when:
+- Working with **`.dac` files** or the **Vireo** toolchain.
+- The user requests **"Design as a Code" / "дизайн як код"** for graphic, visual, or UI layouts.
+- Creating or editing visual UI components (buttons, input fields, badges, cards, navigation, headers, footers).
+- Building screen mockups, dashboard layouts, mobile/web interfaces in code.
+- Managing design tokens (color palettes, typography scales, spacing, border radii).
+- Exporting or rendering design code to HTML previews (`vireo render -o html`) or Figma canvases (`vireo render -o figma`).
+
+> [!NOTE]
+> **Domain boundary:** This skill is strictly for **visual and graphic design as code**. Do NOT use this skill for backend software system architecture, database design, or distributed systems.
 
 ---
 
